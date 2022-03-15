@@ -1,3 +1,3 @@
-# Ruby Tutorials
+# Ruby
 
-This is where I store my ruby tutorials
+This is where I store my ruby projects and tutorials
