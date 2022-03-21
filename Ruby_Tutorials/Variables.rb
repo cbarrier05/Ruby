@@ -5,7 +5,7 @@ variable_example = "variable"
 puts (variable_example)
 
 # How to concatenate to a string
-puts ("This is an example of a " + variable_example)
+puts ("This is an example of a #{variable_example}")
 # Can be done with or without brackets around it
 # But brackets are better practise
 
