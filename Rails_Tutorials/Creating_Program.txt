@@ -1,0 +1,7 @@
+rails new project_name
+- Type this in command line to create new program
+- project_name is the name of the project_name
+
+
+rails server
+- Type in command line to start up program
