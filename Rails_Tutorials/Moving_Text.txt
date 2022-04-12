@@ -1,0 +1,13 @@
+-add this to align it
+
+<div class="d-flex align-items-center justify-content-center">
+    <h1>Example text now aligned to centre</h1>
+</div>
+
+- add this to pad out from edges by putting everything on page into container, auto pads from sides
+- go to "application.html.erb"
+- in <body> type
+
+<div class="container">
+    <%= yield %>
+</div>

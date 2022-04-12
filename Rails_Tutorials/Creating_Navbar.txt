@@ -1,0 +1,15 @@
+- go to "getbootstrap.com", then to components, then to navbar
+- copy the code for navbar that you want
+
+- Then paste into <body> of "application.html.erb"
+
+
+- Or to be tidier type this into <body> of "application.html.erb"
+
+    <%= render partial: "shared/navbar" %>
+
+- Then in views folder, create folder called "shared"
+- Create a file called "_navbar/html.erb"
+- Then paste the copied navbar code into here
+
+- Then in the pasted code, change the href to = the route you want to go to eg, on About option href = "/about"

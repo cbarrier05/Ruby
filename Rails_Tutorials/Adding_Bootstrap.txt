@@ -1,0 +1,9 @@
+- How to add it to application
+
+- Go to "getbootstrap.com"
+- Go to get started
+- Copy the CSS and JS lines into 
+    app
+    views
+    layouts
+    "application.html.erb"

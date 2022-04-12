@@ -1,0 +1,33 @@
+- Initial route taken when website opened
+- Eg when website first opened display a welcome page
+
+
+-type in routes.rb
+Rails.application.routes.draw do
+    root to "main#index"
+end
+
+
+ In folder go to 
+    app
+    controllers
+- Create a new file called "main_controller.rb"
+- You can now connect this to the root route
+
+
+- type in "main_controller.rb"
+
+class MainController < ApplicationController
+    def index
+
+    end
+end
+
+
+In folder go to 
+    app
+    views
+
+- Create new folder called "main"
+- In folder create "index.html.erb"
+- Then type what you want to do in here
