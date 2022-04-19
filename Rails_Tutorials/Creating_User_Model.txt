@@ -1,0 +1,31 @@
+- In terminal for project type:
+
+rails generate model User email:string password_digest:string
+
+- Run this then type:
+
+rails db:migrate
+
+- Then navigate to
+    models
+    user.rb
+
+
+- In the class in file type
+
+    has_secure_password
+
+- In terminal type:
+ User
+- To get a list of all users and their attributes
+
+
+
+- Validation
+
+-In class type:
+
+    validates :email, presence: true
+- Checks an email addres has been entered before saving to database
+
+
